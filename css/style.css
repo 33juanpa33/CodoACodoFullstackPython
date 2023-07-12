@@ -1,0 +1,32 @@
+body {
+    /* background-color: #f0f0f0; */
+    background-image: url(background.png);
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+#login, #classForm {
+    background-color: #ff7f00;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+input, button {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff7f00;
+    color: #333;
+}
